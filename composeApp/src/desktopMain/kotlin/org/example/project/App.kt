@@ -8,6 +8,6 @@ import org.jetbrains.compose.ui.tooling.preview.Preview
 @Preview
 fun App() {
     MaterialTheme {
-        TestSectionWithTimer(questions = question.shuffled())
+        TestSectionWithTimer(questions = questions1.shuffled())
     }
 }
